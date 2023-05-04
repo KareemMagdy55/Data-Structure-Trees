@@ -82,11 +82,11 @@ build Data_Structures_Trees.exe: CXX_EXECUTABLE_LINKER__Data_Structures_Trees_De
 
 build cmake_object_order_depends_target_students_database: phony || CMakeFiles/students_database.dir
 
-build CMakeFiles/students_database.dir/students_DB.cpp.obj: CXX_COMPILER__students_database_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/students_DB.cpp || cmake_object_order_depends_target_students_database
-  DEP_FILE = CMakeFiles\students_database.dir\students_DB.cpp.obj.d
+build CMakeFiles/students_database.dir/Students_database/students_DB.cpp.obj: CXX_COMPILER__students_database_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Students_database/students_DB.cpp || cmake_object_order_depends_target_students_database
+  DEP_FILE = CMakeFiles\students_database.dir\Students_database\students_DB.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\students_database.dir
-  OBJECT_FILE_DIR = CMakeFiles\students_database.dir
+  OBJECT_FILE_DIR = CMakeFiles\students_database.dir\Students_database
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/students_database.dir/students_DB.cpp.obj: CXX_COMPILER__studen
 #############################################
 # Link the executable students_database.exe
 
-build students_database.exe: CXX_EXECUTABLE_LINKER__students_database_Debug CMakeFiles/students_database.dir/students_DB.cpp.obj
+build students_database.exe: CXX_EXECUTABLE_LINKER__students_database_Debug CMakeFiles/students_database.dir/Students_database/students_DB.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\students_database.dir
