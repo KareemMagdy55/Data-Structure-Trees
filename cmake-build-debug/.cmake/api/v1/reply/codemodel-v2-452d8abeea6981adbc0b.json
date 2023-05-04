@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Data_Structures_Trees",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Data_Structures_Trees-Debug-a5656341fe7ea05d1444.json",
 					"name" : "Data_Structures_Trees",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "students_database::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-students_database-Debug-3a3be961816e5a4c9852.json",
+					"name" : "students_database",
 					"projectIndex" : 0
 				}
 			]
