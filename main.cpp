@@ -4,6 +4,6 @@ using namespace std;
 
 int main() {
     loadTxtFile();
-    cout << students[0];
+    cout << students;
     return 0;
 }

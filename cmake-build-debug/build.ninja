@@ -106,6 +106,72 @@ build students_database.exe: CXX_EXECUTABLE_LINKER__students_database_Debug CMak
   TARGET_IMPLIB = libstudents_database.dll.a
   TARGET_PDB = students_database.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target minHeap
+
+
+#############################################
+# Order-only phony target for minHeap
+
+build cmake_object_order_depends_target_minHeap: phony || CMakeFiles/minHeap.dir
+
+build CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj: CXX_COMPILER__minHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Min_heap/min_heap.cpp || cmake_object_order_depends_target_minHeap
+  DEP_FILE = CMakeFiles\minHeap.dir\Min_heap\min_heap.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\minHeap.dir
+  OBJECT_FILE_DIR = CMakeFiles\minHeap.dir\Min_heap
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target minHeap
+
+
+#############################################
+# Link the executable minHeap.exe
+
+build minHeap.exe: CXX_EXECUTABLE_LINKER__minHeap_Debug CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\minHeap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = minHeap.exe
+  TARGET_IMPLIB = libminHeap.dll.a
+  TARGET_PDB = minHeap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxHeap
+
+
+#############################################
+# Order-only phony target for maxHeap
+
+build cmake_object_order_depends_target_maxHeap: phony || CMakeFiles/maxHeap.dir
+
+build CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj: CXX_COMPILER__maxHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Max_heap/max_heap.cpp || cmake_object_order_depends_target_maxHeap
+  DEP_FILE = CMakeFiles\maxHeap.dir\Max_heap\max_heap.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\maxHeap.dir
+  OBJECT_FILE_DIR = CMakeFiles\maxHeap.dir\Max_heap
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxHeap
+
+
+#############################################
+# Link the executable maxHeap.exe
+
+build maxHeap.exe: CXX_EXECUTABLE_LINKER__maxHeap_Debug CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\maxHeap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = maxHeap.exe
+  TARGET_IMPLIB = libmaxHeap.dll.a
+  TARGET_PDB = maxHeap.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +200,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Data_Structures_Trees: phony Data_Structures_Trees.exe
 
+build maxHeap: phony maxHeap.exe
+
+build minHeap: phony minHeap.exe
+
 build students_database: phony students_database.exe
 
 # =============================================================================
@@ -144,7 +214,7 @@ build students_database: phony students_database.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug
 
-build all: phony Data_Structures_Trees.exe students_database.exe
+build all: phony Data_Structures_Trees.exe students_database.exe minHeap.exe maxHeap.exe
 
 # =============================================================================
 # Built-in targets

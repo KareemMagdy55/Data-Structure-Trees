@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -43,6 +47,20 @@
 					"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Data_Structures_Trees-Debug-a5656341fe7ea05d1444.json",
 					"name" : "Data_Structures_Trees",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxHeap-Debug-c09a61c1bc795c408ea1.json",
+					"name" : "maxHeap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minHeap-Debug-a22cacdb31e1dc73c06c.json",
+					"name" : "minHeap",
 					"projectIndex" : 0
 				},
 				{

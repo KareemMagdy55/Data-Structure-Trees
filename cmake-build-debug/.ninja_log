@@ -1,7 +1,5 @@
 # ninja log v5
 5	760	7049128617251301	CMakeFiles/students_database.dir/students_DB.cpp.obj	53e1438dd426b5cb
-8	758	7049129481323925	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
+2	286	7049366056356596	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
 774	949	7049128472142388	students_database.exe	932b880fe542a918
-759	938	7049129483016616	Data_Structures_Trees.exe	899484cb21293d85
-6	810	7049136907064051	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
-811	994	7049136908819326	Data_Structures_Trees.exe	899484cb21293d85
+286	362	7049366057092988	Data_Structures_Trees.exe	899484cb21293d85

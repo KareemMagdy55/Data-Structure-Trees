@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Data_Structures_Trees main.cpp)
 add_executable(students_database Students_database/students_DB.cpp)
+add_executable(minHeap Min_heap/min_heap.cpp)
+add_executable(maxHeap Max_heap/max_heap.cpp)
