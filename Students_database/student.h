@@ -4,9 +4,9 @@
 using namespace std;
 
 struct student{
-    string id ;
+    int id ;
     string name ;
-    string gpa;
+    float gpa;
     string dep ;
 
     friend ostream & operator<<(ostream& os, student& stud){

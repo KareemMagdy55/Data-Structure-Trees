@@ -25,9 +25,20 @@ extern void loadTxtFile (){
 
     // Load the desired information from the txt file into the students array.
     for (int i = 0; i < nStudents; ++i) {
-        getline(students_DB, students[i].id);
+        // Get student's ID.
+        string tempID;
+        getline(students_DB, tempID);
+        students[i].id = stoi(tempID);
+
+        // Get student's name.
         getline(students_DB, students[i].name);
-        getline(students_DB, students[i].gpa);
+
+        // Get student's GPA.
+        string tempGPA ;
+        getline(students_DB, tempGPA);
+        students[i].gpa = stof(tempGPA);
+
+        // Get student's department.
         getline(students_DB, students[i].dep);
     }
 
