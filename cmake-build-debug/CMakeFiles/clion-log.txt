@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Kareem's\Programming vol.3\Github\C++\Data-Structures-Trees" -B "C:\Kareem's\Programming vol.3\Github\C++\Data-Structures-Trees\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug
+-- Build files have been written to: C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug
