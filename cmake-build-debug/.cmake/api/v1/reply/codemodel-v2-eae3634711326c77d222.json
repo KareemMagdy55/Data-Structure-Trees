@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Data_Structures_Trees",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Avl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Avl-Debug-611ce23852228606d535.json",
+					"name" : "Avl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Data_Structures_Trees-Debug-ffa83aae41118c59f021.json",
+					"name" : "Data_Structures_Trees",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxHeap-Debug-28ccf095788572cdced2.json",
+					"name" : "maxHeap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minHeap-Debug-4b3cb671d920b9c7f633.json",
+					"name" : "minHeap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "students_database::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-students_database-Debug-c7e6b74e535e2b2c5705.json",
+					"name" : "students_database",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug",
+		"source" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

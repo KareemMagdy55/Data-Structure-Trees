@@ -1,13 +1,12 @@
 # ninja log v5
-5	760	7049128617251301	CMakeFiles/students_database.dir/students_DB.cpp.obj	53e1438dd426b5cb
-2	286	7049366056356596	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
+8	778	7050931875074774	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
 774	949	7049128472142388	students_database.exe	932b880fe542a918
-286	362	7049366057092988	Data_Structures_Trees.exe	899484cb21293d85
-6	832	7049481299562583	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
-833	1257	7049481303751148	Data_Structures_Trees.exe	899484cb21293d85
-8	744	7049481419617554	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
-745	916	7049481421282690	Data_Structures_Trees.exe	899484cb21293d85
-8	704	7049481509132552	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
-706	878	7049481510805057	Data_Structures_Trees.exe	899484cb21293d85
-6	729	7049481589259721	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
-730	904	7049481590926495	Data_Structures_Trees.exe	899484cb21293d85
+779	972	7050931876958227	Data_Structures_Trees.exe	899484cb21293d85
+928	1158	7050931806783802	Avl.exe	6a447a5cb5d635fa
+8	927	7050931804521422	CMakeFiles/Avl.dir/Avl.cpp.obj	5aa9ab0acb286300
+1	870	7050933051836926	CMakeFiles/Avl.dir/Avl/Avl.cpp.obj	84dcd9a454442b90
+871	1039	7050933053474793	Avl.exe	ac05f73082f9a2ad
+7	794	7050933251300642	CMakeFiles/Avl.dir/Avl/Avl.cpp.obj	84dcd9a454442b90
+795	975	7050933253072811	Avl.exe	ac05f73082f9a2ad
+5	768	7050933529112936	CMakeFiles/Avl.dir/Avl/Avl.cpp.obj	84dcd9a454442b90
+770	955	7050933530890255	Avl.exe	ac05f73082f9a2ad
