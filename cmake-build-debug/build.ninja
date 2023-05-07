@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_Data_Structures_Trees: phony || CMakeFil
 build CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj: CXX_COMPILER__Data_Structures_Trees_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/main.cpp || cmake_object_order_depends_target_Data_Structures_Trees
   DEP_FILE = CMakeFiles\Data_Structures_Trees.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
   OBJECT_DIR = CMakeFiles\Data_Structures_Trees.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Structures_Trees.dir
 
@@ -86,7 +86,7 @@ build cmake_object_order_depends_target_students_database: phony || CMakeFiles/s
 build CMakeFiles/students_database.dir/Students_database/students_DB.cpp.obj: CXX_COMPILER__students_database_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Students_database/students_DB.cpp || cmake_object_order_depends_target_students_database
   DEP_FILE = CMakeFiles\students_database.dir\Students_database\students_DB.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
   OBJECT_DIR = CMakeFiles\students_database.dir
   OBJECT_FILE_DIR = CMakeFiles\students_database.dir\Students_database
 
@@ -117,12 +117,12 @@ build students_database.exe: CXX_EXECUTABLE_LINKER__students_database_Debug CMak
 
 build cmake_object_order_depends_target_minHeap: phony || CMakeFiles/minHeap.dir
 
-build CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj: CXX_COMPILER__minHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Min_heap/min_heap.cpp || cmake_object_order_depends_target_minHeap
-  DEP_FILE = CMakeFiles\minHeap.dir\Min_heap\min_heap.cpp.obj.d
+build CMakeFiles/minHeap.dir/Heap/min_heap.cpp.obj: CXX_COMPILER__minHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Heap/min_heap.cpp || cmake_object_order_depends_target_minHeap
+  DEP_FILE = CMakeFiles\minHeap.dir\Heap\min_heap.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
   OBJECT_DIR = CMakeFiles\minHeap.dir
-  OBJECT_FILE_DIR = CMakeFiles\minHeap.dir\Min_heap
+  OBJECT_FILE_DIR = CMakeFiles\minHeap.dir\Heap
 
 
 # =============================================================================
@@ -132,7 +132,7 @@ build CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj: CXX_COMPILER__minHeap_De
 #############################################
 # Link the executable minHeap.exe
 
-build minHeap.exe: CXX_EXECUTABLE_LINKER__minHeap_Debug CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj
+build minHeap.exe: CXX_EXECUTABLE_LINKER__minHeap_Debug CMakeFiles/minHeap.dir/Heap/min_heap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\minHeap.dir
@@ -151,12 +151,12 @@ build minHeap.exe: CXX_EXECUTABLE_LINKER__minHeap_Debug CMakeFiles/minHeap.dir/M
 
 build cmake_object_order_depends_target_maxHeap: phony || CMakeFiles/maxHeap.dir
 
-build CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj: CXX_COMPILER__maxHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Max_heap/max_heap.cpp || cmake_object_order_depends_target_maxHeap
-  DEP_FILE = CMakeFiles\maxHeap.dir\Max_heap\max_heap.cpp.obj.d
+build CMakeFiles/maxHeap.dir/Heap/max_heap.cpp.obj: CXX_COMPILER__maxHeap_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Heap/max_heap.cpp || cmake_object_order_depends_target_maxHeap
+  DEP_FILE = CMakeFiles\maxHeap.dir\Heap\max_heap.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
   OBJECT_DIR = CMakeFiles\maxHeap.dir
-  OBJECT_FILE_DIR = CMakeFiles\maxHeap.dir\Max_heap
+  OBJECT_FILE_DIR = CMakeFiles\maxHeap.dir\Heap
 
 
 # =============================================================================
@@ -166,7 +166,7 @@ build CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj: CXX_COMPILER__maxHeap_De
 #############################################
 # Link the executable maxHeap.exe
 
-build maxHeap.exe: CXX_EXECUTABLE_LINKER__maxHeap_Debug CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj
+build maxHeap.exe: CXX_EXECUTABLE_LINKER__maxHeap_Debug CMakeFiles/maxHeap.dir/Heap/max_heap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\maxHeap.dir
@@ -188,7 +188,7 @@ build cmake_object_order_depends_target_Avl: phony || CMakeFiles/Avl.dir
 build CMakeFiles/Avl.dir/Avl/Avl.cpp.obj: CXX_COMPILER__Avl_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/Data-Structures-Trees/Avl/Avl.cpp || cmake_object_order_depends_target_Avl
   DEP_FILE = CMakeFiles\Avl.dir\Avl\Avl.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Students_database" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap" -I"C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
   OBJECT_DIR = CMakeFiles\Avl.dir
   OBJECT_FILE_DIR = CMakeFiles\Avl.dir\Avl
 

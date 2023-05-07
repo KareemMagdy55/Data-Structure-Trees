@@ -7,12 +7,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(Students_database)
 include_directories(Min_heap)
-include_directories(Max_heap)
+include_directories(Heap)
 
 add_executable(Data_Structures_Trees main.cpp)
 add_executable(students_database Students_database/students_DB.cpp)
-add_executable(minHeap Min_heap/min_heap.cpp)
-add_executable(maxHeap Max_heap/max_heap.cpp)
+add_executable(minHeap Heap/min_heap.cpp)
+add_executable(maxHeap Heap/max_heap.cpp)
 add_executable(Avl Avl/Avl.cpp)
 
 target_include_directories(Data_Structures_Trees PUBLIC ${CMAKE_DL_LIBS})

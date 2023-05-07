@@ -75,7 +75,7 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
 				}
 			],
 			"language" : "CXX",
@@ -135,7 +135,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Min_heap/min_heap.cpp",
+			"path" : "Heap/min_heap.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

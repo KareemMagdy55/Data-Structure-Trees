@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "maxHeap.exe"
+			"path" : "Avl.exe"
 		},
 		{
-			"path" : "maxHeap.pdb"
+			"path" : "Avl.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -75,7 +75,7 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Max_heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
 				}
 			],
 			"language" : "CXX",
@@ -93,7 +93,7 @@
 			]
 		}
 	],
-	"id" : "maxHeap::@6890427a1f51a3e7e1df",
+	"id" : "Avl::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -113,8 +113,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "maxHeap",
-	"nameOnDisk" : "maxHeap.exe",
+	"name" : "Avl",
+	"nameOnDisk" : "Avl.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -135,7 +135,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Max_heap/max_heap.cpp",
+			"path" : "Avl/Avl.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
