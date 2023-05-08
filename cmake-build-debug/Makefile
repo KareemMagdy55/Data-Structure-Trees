@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees
+CMAKE_SOURCE_DIR = C:\Users\saraw\CLionProjects\Data-Structure-Trees
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\saraw\CLionProjects\Data-Structure-Trees\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees\cmake-build-debug\CMakeFiles C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saraw\CLionProjects\Data-Structure-Trees\cmake-build-debug\CMakeFiles C:\Users\saraw\CLionProjects\Data-Structure-Trees\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saraw\OneDrive\المستندات\Data-Structure-Trees\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saraw\CLionProjects\Data-Structure-Trees\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -180,77 +180,77 @@ maxHeap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/build
 .PHONY : maxHeap/fast
 
-Avl.obj: Avl.cpp.obj
-.PHONY : Avl.obj
+Avl/Avl.obj: Avl/Avl.cpp.obj
+.PHONY : Avl/Avl.obj
 
 # target to build an object file
-Avl.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl.cpp.obj
-.PHONY : Avl.cpp.obj
+Avl/Avl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl/Avl.cpp.obj
+.PHONY : Avl/Avl.cpp.obj
 
-Avl.i: Avl.cpp.i
-.PHONY : Avl.i
+Avl/Avl.i: Avl/Avl.cpp.i
+.PHONY : Avl/Avl.i
 
 # target to preprocess a source file
-Avl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl.cpp.i
-.PHONY : Avl.cpp.i
+Avl/Avl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl/Avl.cpp.i
+.PHONY : Avl/Avl.cpp.i
 
-Avl.s: Avl.cpp.s
-.PHONY : Avl.s
+Avl/Avl.s: Avl/Avl.cpp.s
+.PHONY : Avl/Avl.s
 
 # target to generate assembly for a file
-Avl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl.cpp.s
-.PHONY : Avl.cpp.s
+Avl/Avl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl/Avl.cpp.s
+.PHONY : Avl/Avl.cpp.s
 
-Max_heap/max_heap.obj: Max_heap/max_heap.cpp.obj
-.PHONY : Max_heap/max_heap.obj
+Heap/max_heap.obj: Heap/max_heap.cpp.obj
+.PHONY : Heap/max_heap.obj
 
 # target to build an object file
-Max_heap/max_heap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.obj
-.PHONY : Max_heap/max_heap.cpp.obj
+Heap/max_heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Heap/max_heap.cpp.obj
+.PHONY : Heap/max_heap.cpp.obj
 
-Max_heap/max_heap.i: Max_heap/max_heap.cpp.i
-.PHONY : Max_heap/max_heap.i
+Heap/max_heap.i: Heap/max_heap.cpp.i
+.PHONY : Heap/max_heap.i
 
 # target to preprocess a source file
-Max_heap/max_heap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.i
-.PHONY : Max_heap/max_heap.cpp.i
+Heap/max_heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Heap/max_heap.cpp.i
+.PHONY : Heap/max_heap.cpp.i
 
-Max_heap/max_heap.s: Max_heap/max_heap.cpp.s
-.PHONY : Max_heap/max_heap.s
+Heap/max_heap.s: Heap/max_heap.cpp.s
+.PHONY : Heap/max_heap.s
 
 # target to generate assembly for a file
-Max_heap/max_heap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Max_heap/max_heap.cpp.s
-.PHONY : Max_heap/max_heap.cpp.s
+Heap/max_heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/Heap/max_heap.cpp.s
+.PHONY : Heap/max_heap.cpp.s
 
-Min_heap/min_heap.obj: Min_heap/min_heap.cpp.obj
-.PHONY : Min_heap/min_heap.obj
+Heap/min_heap.obj: Heap/min_heap.cpp.obj
+.PHONY : Heap/min_heap.obj
 
 # target to build an object file
-Min_heap/min_heap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.obj
-.PHONY : Min_heap/min_heap.cpp.obj
+Heap/min_heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Heap/min_heap.cpp.obj
+.PHONY : Heap/min_heap.cpp.obj
 
-Min_heap/min_heap.i: Min_heap/min_heap.cpp.i
-.PHONY : Min_heap/min_heap.i
+Heap/min_heap.i: Heap/min_heap.cpp.i
+.PHONY : Heap/min_heap.i
 
 # target to preprocess a source file
-Min_heap/min_heap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.i
-.PHONY : Min_heap/min_heap.cpp.i
+Heap/min_heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Heap/min_heap.cpp.i
+.PHONY : Heap/min_heap.cpp.i
 
-Min_heap/min_heap.s: Min_heap/min_heap.cpp.s
-.PHONY : Min_heap/min_heap.s
+Heap/min_heap.s: Heap/min_heap.cpp.s
+.PHONY : Heap/min_heap.s
 
 # target to generate assembly for a file
-Min_heap/min_heap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Min_heap/min_heap.cpp.s
-.PHONY : Min_heap/min_heap.cpp.s
+Heap/min_heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minHeap.dir\build.make CMakeFiles/minHeap.dir/Heap/min_heap.cpp.s
+.PHONY : Heap/min_heap.cpp.s
 
 Students_database/students_DB.obj: Students_database/students_DB.cpp.obj
 .PHONY : Students_database/students_DB.obj
@@ -313,15 +313,15 @@ help:
 	@echo ... maxHeap
 	@echo ... minHeap
 	@echo ... students_database
-	@echo ... Avl.obj
-	@echo ... Avl.i
-	@echo ... Avl.s
-	@echo ... Max_heap/max_heap.obj
-	@echo ... Max_heap/max_heap.i
-	@echo ... Max_heap/max_heap.s
-	@echo ... Min_heap/min_heap.obj
-	@echo ... Min_heap/min_heap.i
-	@echo ... Min_heap/min_heap.s
+	@echo ... Avl/Avl.obj
+	@echo ... Avl/Avl.i
+	@echo ... Avl/Avl.s
+	@echo ... Heap/max_heap.obj
+	@echo ... Heap/max_heap.i
+	@echo ... Heap/max_heap.s
+	@echo ... Heap/min_heap.obj
+	@echo ... Heap/min_heap.i
+	@echo ... Heap/min_heap.s
 	@echo ... Students_database/students_DB.obj
 	@echo ... Students_database/students_DB.i
 	@echo ... Students_database/students_DB.s

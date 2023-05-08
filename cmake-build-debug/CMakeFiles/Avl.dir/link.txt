@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Avl.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\Avl.dir/objects.a @CMakeFiles\Avl.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Avl.dir/objects.a -Wl,--no-whole-archive -o Avl.exe -Wl,--out-implib,libAvl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Avl.dir\linklibs.rsp

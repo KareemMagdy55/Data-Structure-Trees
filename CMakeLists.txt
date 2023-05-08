@@ -13,7 +13,7 @@ add_executable(Data_Structures_Trees main.cpp)
 add_executable(students_database Students_database/students_DB.cpp)
 add_executable(minHeap Heap/min_heap.cpp)
 add_executable(maxHeap Heap/max_heap.cpp)
-add_executable(Avl Avl/Avl.cpp)
+add_executable(Avl Avl/Avl.cpp Avl/Avl.h)
 
 target_include_directories(Data_Structures_Trees PUBLIC ${CMAKE_DL_LIBS})
 target_include_directories(students_database PUBLIC ${CMAKE_DL_LIBS})
