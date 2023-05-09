@@ -18,19 +18,28 @@ struct student{
         return os;
     }
     friend istream & operator>>(istream& in, student& stud){
-            cout << "id: ";
-            in >> stud.id;
 
-            cout << "Name: ";
-            in >> stud.name;
+        cout << "id: ";
+        in >> stud.id ;
+        in.ignore();
 
-            cout << "GPA: ";
-            in >> stud.gpa;
+        cout << "Name: ";
+        string line;
+        getline(in, line);
+        stud.name = line;
 
-            cout << "Department: ";
-            in >> stud.dep;
-            cout << "============================\n";
+        cout << "GPA: ";
+        in >> stud.gpa;
+        in.ignore();
 
-            return in;
+        cout << "Department: ";
+        in >> stud.dep;
+        in.ignore();
+        
+        cout << "============================\n";
+
+        return in;
     }
+
+
 };
