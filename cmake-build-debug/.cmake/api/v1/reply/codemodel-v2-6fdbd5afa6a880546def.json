@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Data_Structures_Trees",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Avl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Avl-Debug-a0640e04cc5f96fcbd6f.json",
+					"name" : "Avl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Data_Structures_Trees-Debug-23bc4fe092c5755197f1.json",
+					"name" : "Data_Structures_Trees",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxHeap-Debug-47636edfdcf1d5d9c324.json",
+					"name" : "maxHeap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minHeap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minHeap-Debug-9c3e569d9aaea22d3a37.json",
+					"name" : "minHeap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "students_database::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-students_database-Debug-468f6c81dd3fbab19fee.json",
+					"name" : "students_database",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug",
+		"source" : "C:/Users/saraw/CLionProjects/Data-Structure-Trees"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

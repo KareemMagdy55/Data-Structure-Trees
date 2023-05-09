@@ -8,22 +8,25 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Avl">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Avl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Avl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -34,19 +37,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Avl"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Avl"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Avl/fast">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Avl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Avl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -57,19 +63,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Avl/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Avl/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Data_Structures_Trees">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Data_Structures_Trees.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Data_Structures_Trees.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -80,19 +89,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structures_Trees"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structures_Trees"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Data_Structures_Trees/fast">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Data_Structures_Trees.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Data_Structures_Trees.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -103,19 +115,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structures_Trees/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structures_Trees/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="students_database">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/students_database.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/students_database.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -126,19 +141,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 students_database"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 students_database"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="students_database/fast">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/students_database.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/students_database.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -149,19 +167,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 students_database/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 students_database/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="minHeap">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/minHeap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/minHeap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -172,19 +193,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeap"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeap"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="minHeap/fast">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/minHeap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/minHeap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -195,19 +219,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeap/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeap/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="maxHeap">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/maxHeap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/maxHeap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -218,19 +245,22 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxHeap"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxHeap"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="maxHeap/fast">
-				<Option output="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/maxHeap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option output="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/maxHeap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Min_heap"/>
+					<Add directory="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -241,55 +271,58 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxHeap/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxHeap/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Avl.cpp">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Avl/Avl.cpp">
 			<Option target="Avl"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Max_heap/max_heap.cpp">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Avl/Avl.h">
+			<Option target="Avl"/>
+		</Unit>
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap/max_heap.cpp">
 			<Option target="maxHeap"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Max_heap/max_heap.h">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap/max_heap.h">
 			<Option target="maxHeap"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Min_heap/min_heap.cpp">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap/min_heap.cpp">
 			<Option target="minHeap"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Min_heap/min_heap.h">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Heap/min_heap.h">
 			<Option target="minHeap"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/Students_database/students_DB.cpp">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/Students_database/students_DB.cpp">
 			<Option target="students_database"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/main.cpp">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/main.cpp">
 			<Option target="Data_Structures_Trees"/>
 		</Unit>
-		<Unit filename="C:/Users/saraw/OneDrive/المستندات/Data-Structure-Trees/CMakeLists.txt">
+		<Unit filename="C:/Users/saraw/CLionProjects/Data-Structure-Trees/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
