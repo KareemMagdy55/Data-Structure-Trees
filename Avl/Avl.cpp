@@ -1,6 +1,6 @@
 #include "Avl.h"
 using namespace std;
-
+// the node constructor
 Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {}
 
 
