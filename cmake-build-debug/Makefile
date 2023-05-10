@@ -180,6 +180,56 @@ maxHeap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\maxHeap.dir\build.make CMakeFiles/maxHeap.dir/build
 .PHONY : maxHeap/fast
 
+#=============================================================================
+# Target rules for targets named bst
+
+# Build rule for target.
+bst: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bst
+.PHONY : bst
+
+# fast build rule for target.
+bst/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/build
+.PHONY : bst/fast
+
+#=============================================================================
+# Target rules for targets named App
+
+# Build rule for target.
+App: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 App
+.PHONY : App
+
+# fast build rule for target.
+App/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\App.dir\build.make CMakeFiles/App.dir/build
+.PHONY : App/fast
+
+Application/Application.obj: Application/Application.cpp.obj
+.PHONY : Application/Application.obj
+
+# target to build an object file
+Application/Application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\App.dir\build.make CMakeFiles/App.dir/Application/Application.cpp.obj
+.PHONY : Application/Application.cpp.obj
+
+Application/Application.i: Application/Application.cpp.i
+.PHONY : Application/Application.i
+
+# target to preprocess a source file
+Application/Application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\App.dir\build.make CMakeFiles/App.dir/Application/Application.cpp.i
+.PHONY : Application/Application.cpp.i
+
+Application/Application.s: Application/Application.cpp.s
+.PHONY : Application/Application.s
+
+# target to generate assembly for a file
+Application/Application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\App.dir\build.make CMakeFiles/App.dir/Application/Application.cpp.s
+.PHONY : Application/Application.cpp.s
+
 Avl/Avl.obj: Avl/Avl.cpp.obj
 .PHONY : Avl/Avl.obj
 
@@ -203,6 +253,30 @@ Avl/Avl.s: Avl/Avl.cpp.s
 Avl/Avl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Avl.dir\build.make CMakeFiles/Avl.dir/Avl/Avl.cpp.s
 .PHONY : Avl/Avl.cpp.s
+
+BST/BST.obj: BST/BST.cpp.obj
+.PHONY : BST/BST.obj
+
+# target to build an object file
+BST/BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/BST/BST.cpp.obj
+.PHONY : BST/BST.cpp.obj
+
+BST/BST.i: BST/BST.cpp.i
+.PHONY : BST/BST.i
+
+# target to preprocess a source file
+BST/BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/BST/BST.cpp.i
+.PHONY : BST/BST.cpp.i
+
+BST/BST.s: BST/BST.cpp.s
+.PHONY : BST/BST.s
+
+# target to generate assembly for a file
+BST/BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bst.dir\build.make CMakeFiles/bst.dir/BST/BST.cpp.s
+.PHONY : BST/BST.cpp.s
 
 Heap/max_heap.obj: Heap/max_heap.cpp.obj
 .PHONY : Heap/max_heap.obj
@@ -308,14 +382,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... App
 	@echo ... Avl
 	@echo ... Data_Structures_Trees
+	@echo ... bst
 	@echo ... maxHeap
 	@echo ... minHeap
 	@echo ... students_database
+	@echo ... Application/Application.obj
+	@echo ... Application/Application.i
+	@echo ... Application/Application.s
 	@echo ... Avl/Avl.obj
 	@echo ... Avl/Avl.i
 	@echo ... Avl/Avl.s
+	@echo ... BST/BST.obj
+	@echo ... BST/BST.i
+	@echo ... BST/BST.s
 	@echo ... Heap/max_heap.obj
 	@echo ... Heap/max_heap.i
 	@echo ... Heap/max_heap.s

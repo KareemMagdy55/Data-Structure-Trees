@@ -1,16 +1,15 @@
 # ninja log v5
-6	1053	7053900131730816	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	f7b3e9d10b58893a
+8	778	7050931875074774	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	cbaca777b1d76330
 774	949	7049128472142388	students_database.exe	932b880fe542a918
+5	768	7050933529112936	CMakeFiles/Avl.dir/Avl/Avl.cpp.obj	84dcd9a454442b90
+779	972	7050931876958227	Data_Structures_Trees.exe	899484cb21293d85
+770	955	7050933530890255	Avl.exe	ac05f73082f9a2ad
+8	927	7050931804521422	CMakeFiles/Avl.dir/Avl.cpp.obj	5aa9ab0acb286300
 9	1031	7051677601844446	CMakeFiles/Avl.dir/Avl/Avl.cpp.obj	77c99382482e287
-1054	1267	7053900133825880	Data_Structures_Trees.exe	899484cb21293d85
 1032	1480	7051677606251050	Avl.exe	ac05f73082f9a2ad
-1	1668	7053938037210462	CMakeFiles/App.dir/Application/Application.cpp.obj	b8ae1d32c9bff4b
-1669	2020	7053938040722504	App.exe	aa66c4347a8681ac
-6	1520	7053938456947581	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	8edb7b0cef36b02b
-1521	1771	7053938459410803	Data_Structures_Trees.exe	899484cb21293d85
-5	1520	7053938516061064	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	8edb7b0cef36b02b
-1521	1801	7053938518817509	Data_Structures_Trees.exe	899484cb21293d85
-7	1463	7053938764172617	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	8edb7b0cef36b02b
-1464	1723	7053938766737222	Data_Structures_Trees.exe	899484cb21293d85
-9	1485	7053939396406034	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	8edb7b0cef36b02b
-1486	1728	7053939398741583	Data_Structures_Trees.exe	899484cb21293d85
+8	799	7051677659465554	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	f7b3e9d10b58893a
+800	1007	7051677661464340	Data_Structures_Trees.exe	899484cb21293d85
+8	1169	7051678419861546	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	f7b3e9d10b58893a
+1169	1354	7051678421648899	Data_Structures_Trees.exe	899484cb21293d85
+7	934	7051679159997639	CMakeFiles/Data_Structures_Trees.dir/main.cpp.obj	f7b3e9d10b58893a
+935	1141	7051679161990574	Data_Structures_Trees.exe	899484cb21293d85

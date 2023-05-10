@@ -18,25 +18,26 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
         }
     }
 
-//    ~AVLTree() { deleteSubtree(root); }
 
     void AVLTree::addStudent(student stud) {
         root = insert(root, stud);
-//        cout <<"The student is added.\n";
     }
 
-    void AVLTree::removeStudent(int id) {
+    bool AVLTree::removeStudent(int id) {
         root = remove(root, id);
+        if(root == nullptr){
+            return false;
+        }
+        return true;
     }
 
-    void AVLTree::searchStudent(int id) {
+    bool AVLTree::searchStudent(int id) {
         Node *node = search(root, id);
         if (node != nullptr) {
-            cout << "Student is found" << endl;
+            cout << "Student is found." << endl;
             cout << node->data;
         } else {
-            cout << "Student not found" << endl;
-            cout << "============================\n";
+            cout << "Student is not found." << endl;
         }
     }
 
@@ -44,7 +45,6 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
         inorderTraversal(root);
         cout << "Department Report:" << endl;
         printDepartmentReport();
-        cout << "============================\n";
     }
 
     void AVLTree::printDepartmentReport() {
@@ -176,7 +176,6 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
 
     Node* AVLTree::remove(Node *node, int id) {
         if (node == nullptr) {
-            cout << "Student is not found.\n";
             return nullptr;
         }
         // If the ID of the student to be removed is less than the current node's ID,

@@ -21,9 +21,9 @@ public:
 
     void addStudent(student stud);
 
-    void removeStudent(int id);
+    bool removeStudent(int id);
 
-    void searchStudent(int id);
+    bool searchStudent(int id);
 
     void printAll();
 

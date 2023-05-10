@@ -103,22 +103,34 @@ void mainApp::avlChoice() {
         case 1:{
             cin >> stud;
             avlTree.addStudent(stud);
-            cout << "The student is added\n";
+            cout << "The student is added.\n";
             break;
         }
         case 2 : {
             int id ;
             cout << "id : "; cin >> id;
-            avlTree.removeStudent(id);
+            for (int i = 0; i < nStudents; ++i) {
+                if(id == students[i].id){
+                    cout << "Student is found.\n";
+                    cout << students[i] << endl;
+                    break;
+                }
+            }
+            if(!avlTree.removeStudent(id)){
+                cout << "Student is not found.\n";
+            }
+            else cout << "Student is deleted.\n";
         }
         case 3 : {
             int id ;
             cout << "id : "; cin >> id;
             avlTree.searchStudent(id);
+            cout << "============================\n";
             break;
         }
         case 4 : {
             avlTree.printAll();
+            cout << "============================\n";
             break;
         }
         case 5 : {
