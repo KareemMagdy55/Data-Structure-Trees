@@ -47,39 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Avl::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6c3a1383f8526b1b8249.json
 					"jsonFile" : "target-Avl-Debug-c6e14c3e93a2ddd8668f.json",
-========
-					"jsonFile" : "target-Avl-Debug-a0640e04cc5f96fcbd6f.json",
->>>>>>>> f98a7557dc30c8248a2c348359694f200cfadf3c:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6fdbd5afa6a880546def.json
 					"name" : "Avl",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_Structures_Trees-Debug-23bc4fe092c5755197f1.json",
+					"jsonFile" : "target-Data_Structures_Trees-Debug-13cf986152b015c55e20.json",
 					"name" : "Data_Structures_Trees",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "maxHeap::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-maxHeap-Debug-47636edfdcf1d5d9c324.json",
+					"jsonFile" : "target-maxHeap-Debug-1e23aec8ede95b94c6aa.json",
 					"name" : "maxHeap",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "minHeap::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-minHeap-Debug-9c3e569d9aaea22d3a37.json",
+					"jsonFile" : "target-minHeap-Debug-35c9370adaa165e44034.json",
 					"name" : "minHeap",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "students_database::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-students_database-Debug-468f6c81dd3fbab19fee.json",
+					"jsonFile" : "target-students_database-Debug-254ecf128a01b52d2fa5.json",
 					"name" : "students_database",
 					"projectIndex" : 0
 				}
@@ -89,12 +85,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/saraw/CLionProjects/Data-Structure-Trees/cmake-build-debug",
-		"source" : "C:/Users/saraw/CLionProjects/Data-Structure-Trees"
+		"build" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug",
+		"source" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
