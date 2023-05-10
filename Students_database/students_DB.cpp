@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-#include "student.h"
+#include "student.cpp"
 using namespace std;
 
 
