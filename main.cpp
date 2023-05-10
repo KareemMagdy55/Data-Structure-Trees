@@ -1,10 +1,10 @@
 #include <iostream>
-#include "min_heap.cpp"
-#include "max_heap.cpp"
+#include "Application.cpp"
 using namespace std;
 
 int main() {
- 
+    mainApp app;
+    app.start();
 
     return 0;
 }

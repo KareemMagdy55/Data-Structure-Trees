@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -47,6 +47,18 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -71,11 +83,19 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Avl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/BST"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Application"
 				}
 			],
 			"language" : "CXX",

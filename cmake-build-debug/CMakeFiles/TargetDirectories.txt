@@ -3,5 +3,7 @@ C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug
 C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/minHeap.dir
 C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/maxHeap.dir
 C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/Avl.dir
+C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/bst.dir
+C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/App.dir
 C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/cmake-build-debug/CMakeFiles/rebuild_cache.dir

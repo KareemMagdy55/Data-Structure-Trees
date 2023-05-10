@@ -1,3 +1,4 @@
+#pragma once
 #include "Avl.h"
 using namespace std;
 
@@ -275,38 +276,38 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
 
 
 
-int main(){
-    AVLTree tree;
-
-    student s1;
-    student s2;
-    int id;
-    cin >> s1;
-    cin >> s2;
-
-    tree.addStudent(s1);
-    tree.addStudent(s2);
-
-    cout << "All Students:" << endl;
-    tree.printAll();
-    cout << endl;
-
-    cout << "Enter student id to be removed..." << endl;
-    cin >> id;
-    tree.removeStudent(id);
-    cout << endl;
-
-    cout << "All Students:" << endl;
-    tree.printAll();
-    cout << endl;
-
-    cout << "Enter student id to search for..." << endl;
-    cin >> id;
-    tree.searchStudent(id);
-    cout << endl;
-
-    cout << "Enter student id to search for..." << endl;
-    cin >> id;
-    tree.searchStudent(id);
-    cout << endl;
-}
+//int main(){
+//    AVLTree tree;
+//
+//    student s1;
+//    student s2;
+//    int id;
+//    cin >> s1;
+//    cin >> s2;
+//
+//    tree.addStudent(s1);
+//    tree.addStudent(s2);
+//
+//    cout << "All Students:" << endl;
+//    tree.printAll();
+//    cout << endl;
+//
+//    cout << "Enter student id to be removed..." << endl;
+//    cin >> id;
+//    tree.removeStudent(id);
+//    cout << endl;
+//
+//    cout << "All Students:" << endl;
+//    tree.printAll();
+//    cout << endl;
+//
+//    cout << "Enter student id to search for..." << endl;
+//    cin >> id;
+//    tree.searchStudent(id);
+//    cout << endl;
+//
+//    cout << "Enter student id to search for..." << endl;
+//    cin >> id;
+//    tree.searchStudent(id);
+//    cout << endl;
+//}

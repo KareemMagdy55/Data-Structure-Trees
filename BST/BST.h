@@ -3,16 +3,16 @@
  Date: 6, May 2023
  Topic: Binary Search Tree
 */
+#pragma once
 
-#ifndef STUDENTAPPLICATION_BST_H
-#define STUDENTAPPLICATION_BST_H
+#include "students_DB.cpp"
 
-class Node {
+class BstNode {
 public:
     student data;
-    Node *left, *right;
+    BstNode *left, *right;
 
-    Node() {
+    BstNode() {
         left = nullptr;
         right = nullptr;
     }
@@ -20,30 +20,30 @@ public:
 
 class BST {
 public:
-    Node *root;
+    BstNode *root;
     int CS = 0, IT = 0, DS = 0, IS = 0;
 public:
     BST();
 
-    Node *Insert(Node *r, student s);
+    BstNode *Insert(BstNode *r, student s);
 
-    Node *getRoot();
+    BstNode *getRoot();
 
-    Node *Search(Node *r, int key);
+    BstNode *Search(BstNode *r, int key);
 
-    Node *findMax(Node *r);
+    BstNode *findMax(BstNode *r);
 
-    Node *Remove(Node *r, int key);
+    BstNode *Remove(BstNode *r, int key);
 
     void insert(student s);
 
-    void printStudents(Node *r);
+    void printStudents(BstNode *r);
 
     void printDepartments() const;
 
-    void print(Node *r);
+    void print(BstNode *r);
 
-    void remove(Node* r, int key);
+    void remove(BstNode* r, int key);
 
     void increaseDep(std::string dep);
 
@@ -52,4 +52,3 @@ public:
     bool search(int key);
 };
 
-#endif //STUDENTAPPLICATION_BST_H

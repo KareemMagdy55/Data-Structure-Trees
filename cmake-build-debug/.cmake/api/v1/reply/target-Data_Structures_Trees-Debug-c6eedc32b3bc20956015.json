@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Avl.exe"
+			"path" : "Data_Structures_Trees.exe"
 		},
 		{
-			"path" : "Avl.pdb"
+			"path" : "Data_Structures_Trees.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -47,6 +47,18 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -71,11 +83,19 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Min_heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Heap"
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Avl"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/BST"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Kareem's/Programming vol.3/Github/C++/Data-Structures-Trees/Application"
 				}
 			],
 			"language" : "CXX",
@@ -93,7 +113,7 @@
 			]
 		}
 	],
-	"id" : "Avl::@6890427a1f51a3e7e1df",
+	"id" : "Data_Structures_Trees::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -113,8 +133,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Avl",
-	"nameOnDisk" : "Avl.exe",
+	"name" : "Data_Structures_Trees",
+	"nameOnDisk" : "Data_Structures_Trees.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -128,13 +148,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -142,13 +155,8 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Avl/Avl.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Avl/Avl.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

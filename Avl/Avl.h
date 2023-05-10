@@ -2,8 +2,8 @@
 #include "students_DB.cpp"
 #include <unordered_map>
 
-#ifndef DATA_STRUCTURES_TREES_AVL_H
-#define DATA_STRUCTURES_TREES_AVL_H
+#pragma once
+
 
 struct Node {
     student data; // to hold student data in the node
@@ -50,4 +50,4 @@ public:
     void countStudentsPerDepartment(Node *node, unordered_map<string, int> &counts);
 };
 
-#endif //DATA_STRUCTURES_TREES_AVL_H
+

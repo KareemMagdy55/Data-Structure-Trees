@@ -1,5 +1,5 @@
+#pragma once
 #include "BST.h"
-
 #include <utility>
 
 BST::BST() {
@@ -17,14 +17,14 @@ BST::BST() {
 }
 
 // getter for the root to access in the main
-Node *BST::getRoot() {
+BstNode *BST::getRoot() {
     return root;
 }
 
 // insert student in the tree according to their IDs
-Node *BST::Insert(Node *r, student s) {
+BstNode *BST::Insert(BstNode *r, student s) {
     if (r == nullptr) {
-        Node *newNode = new Node;
+        BstNode *newNode = new BstNode;
         newNode->data = s;
         r = newNode;
     } else if (s.id < r->data.id) {
@@ -41,7 +41,7 @@ void BST::insert(student s) {
 }
 
 // returns a pointer to the node that contains the ID when found
-Node *BST::Search(Node *r, int key) {
+BstNode *BST::Search(BstNode *r, int key) {
     if (r == nullptr) {
         return nullptr;
     } else if (r->data.id == key) {
@@ -55,7 +55,7 @@ Node *BST::Search(Node *r, int key) {
 
 // Returns if the ID is found or not
 bool BST::search(int key) {
-    Node *result = Search(root, key);
+    BstNode *result = Search(root, key);
     if (result == nullptr) {
         cout << "Student is not found\n";
         return false;
@@ -69,7 +69,7 @@ bool BST::search(int key) {
 }
 
 // return the node with the maximum ID
-Node *BST::findMax(Node *r) {
+BstNode *BST::findMax(BstNode *r) {
     if (r == nullptr) {
         return nullptr;
     }
@@ -80,7 +80,7 @@ Node *BST::findMax(Node *r) {
 }
 
 // remove the node with the given ID
-Node* BST::Remove(Node *r, int key) {
+BstNode* BST::Remove(BstNode *r, int key) {
     // check if key exists in the tree
     if (!search(key)) {
         return r;
@@ -99,17 +99,17 @@ Node* BST::Remove(Node *r, int key) {
     }
     else {
         if (r->left == nullptr) {
-            Node *temp = r->right;
+            BstNode *temp = r->right;
             delete r;
             return temp;
         }
         else if (r->right == nullptr) {
-            Node *temp = r->left;
+            BstNode *temp = r->left;
             delete r;
             return temp;
         }
         // node has two children
-        Node *temp = findMax(r->left);
+        BstNode *temp = findMax(r->left);
         r->data = temp->data;
         r->left = Remove(r->left, temp->data.id);
     }
@@ -117,7 +117,7 @@ Node* BST::Remove(Node *r, int key) {
 }
 
 // setting the root to the new root after removing the node
-void BST::remove(Node *r, int key) {
+void BST::remove(BstNode *r, int key) {
     root = Remove(r, key);
     if (root != nullptr) {
         for (int i = 0; i < nStudents; ++i) {
@@ -130,7 +130,7 @@ void BST::remove(Node *r, int key) {
 }
 
 // Print all students data in the tree sorted by ID, inorder traversal
-void BST::printStudents(Node *r) {
+void BST::printStudents(BstNode *r) {
     if (r == nullptr) {
         return;
     } else {
@@ -150,7 +150,7 @@ void BST::printDepartments() const {
 }
 
 // Print all students data in the tree sorted by ID and the number of students in each department
-void BST::print(Node *r) {
+void BST::print(BstNode *r) {
     printStudents(r);
     cout << endl;
     printDepartments();
