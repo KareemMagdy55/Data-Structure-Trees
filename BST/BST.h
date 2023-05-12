@@ -48,7 +48,4 @@ public:
     void increaseDep(std::string dep);
 
     void decreaseDep(std::string dep);
-
-    bool search(int key);
 };
-
