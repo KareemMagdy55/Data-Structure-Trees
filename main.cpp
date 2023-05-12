@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Application.cpp"
 using namespace std;
 
