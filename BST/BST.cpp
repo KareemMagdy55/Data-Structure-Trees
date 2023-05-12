@@ -53,21 +53,6 @@ BstNode *BST::Search(BstNode *r, int key) {
     }
 }
 
-// Returns if the ID is found or not
-bool BST::search(int key) {
-    BstNode *result = Search(root, key);
-    if (result == nullptr) {
-//        cout << "Student is not found\n";
-        return false;
-    } else {
-//        cout << "id: " << key << endl <<
-//             "Student is found\n" <<
-//             "[" << result->data.id << ", " << result->data.name << ", " << result->data.gpa << ", " << result->data.dep
-//             << "]" << endl;
-        return true;
-    }
-}
-
 // return the node with the maximum ID
 BstNode *BST::findMax(BstNode *r) {
     if (r == nullptr) {
@@ -81,10 +66,6 @@ BstNode *BST::findMax(BstNode *r) {
 
 // remove the node with the given ID
 BstNode* BST::Remove(BstNode *r, int key) {
-    // check if key exists in the tree
-    if (!search(key)) {
-        return r;
-    }
     // the tree is empty
     if (r == nullptr) {
         return nullptr;
@@ -93,7 +74,7 @@ BstNode* BST::Remove(BstNode *r, int key) {
     if (key < r->data.id) {
         r->left = Remove(r->left, key);
     }
-    // item is on the right subtree
+        // item is on the right subtree
     else if (key > r->data.id) {
         r->right = Remove(r->right, key);
     }
@@ -171,6 +152,3 @@ void BST::decreaseDep(std::string dep) {
     else if (dep == "DS") { DS--; }
     else if (dep == "IS") { IS--; }
 }
-
-
-
