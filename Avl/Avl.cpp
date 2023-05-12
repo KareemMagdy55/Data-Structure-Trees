@@ -20,7 +20,7 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
 
 
     void AVLTree::addStudent(student stud) {
-        root = insert(root, stud);
+        root = insert(root, std::move(stud));
     }
 
     bool AVLTree::removeStudent(int id) {
@@ -274,7 +274,7 @@ Node::Node(student stud): data(stud), height(1), left(nullptr), right(nullptr) {
     }
 
 
-
+//
 //int main(){
 //    AVLTree tree;
 //

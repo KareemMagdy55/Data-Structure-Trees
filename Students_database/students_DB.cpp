@@ -2,13 +2,13 @@
 #include <iostream>
 #include <fstream>
 #include "student.cpp"
+
 using namespace std;
 
 
 // extern denotes a global variable that can be accessed from a different cpp file.
 extern student* students = NULL; // must be initialized.
 extern int nStudents = 0 ; // must be initialized.
-
 
 extern void loadTxtFile (){
     // open Stud_db.txt.

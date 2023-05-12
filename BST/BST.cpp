@@ -57,13 +57,13 @@ BstNode *BST::Search(BstNode *r, int key) {
 bool BST::search(int key) {
     BstNode *result = Search(root, key);
     if (result == nullptr) {
-        cout << "Student is not found\n";
+//        cout << "Student is not found\n";
         return false;
     } else {
-        cout << "id: " << key << endl <<
-             "Student is found\n" <<
-             "[" << result->data.id << ", " << result->data.name << ", " << result->data.gpa << ", " << result->data.dep
-             << "]" << endl;
+//        cout << "id: " << key << endl <<
+//             "Student is found\n" <<
+//             "[" << result->data.id << ", " << result->data.name << ", " << result->data.gpa << ", " << result->data.dep
+//             << "]" << endl;
         return true;
     }
 }
