@@ -64,11 +64,16 @@ void mainApp::bstChoice() {
                 int id;
                 cout << "id : ";
                 cin >> id;
-                BstNode *tempNode = new BstNode();
+                auto *tempNode = new BstNode();
                 tempNode = bst.Search(bst.getRoot(), id);
-                bst.remove(bst.getRoot(), id);
-                if (tempNode)
-                    cout << "Student is deleted\n";
+                if (tempNode != nullptr) {
+                    stud = tempNode->data;
+                    bst.decreaseDep(stud.dep);
+                    bst.remove(bst.getRoot(), id);
+                    cout << "The student is removed\n";
+                }
+                else
+                    cout << "Student is not found\n";
                 break;
             }
             case 3 : {
