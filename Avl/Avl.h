@@ -1,4 +1,5 @@
 #pragma once
+
 #include "students_DB.cpp"
 #include <unordered_map>
 
@@ -8,13 +9,13 @@
 struct Node {
     student data; // to hold student data in the node
     int height;
-    Node* left;
-    Node* right;
+    Node *left;
+    Node *right;
 
     Node(student stud);
 };
 
-class AVLTree{
+class AVLTree {
     Node *root;
 public:
     AVLTree();

@@ -1,4 +1,5 @@
 #pragma once
+
 #include "BST.h"
 #include <utility>
 
@@ -65,7 +66,7 @@ BstNode *BST::findMax(BstNode *r) {
 }
 
 // remove the node with the given ID
-BstNode* BST::Remove(BstNode *r, int key) {
+BstNode *BST::Remove(BstNode *r, int key) {
     // the tree is empty
     if (r == nullptr) {
         return nullptr;
@@ -77,14 +78,12 @@ BstNode* BST::Remove(BstNode *r, int key) {
         // item is on the right subtree
     else if (key > r->data.id) {
         r->right = Remove(r->right, key);
-    }
-    else {
+    } else {
         if (r->left == nullptr) {
             BstNode *temp = r->right;
             delete r;
             return temp;
-        }
-        else if (r->right == nullptr) {
+        } else if (r->right == nullptr) {
             BstNode *temp = r->left;
             delete r;
             return temp;

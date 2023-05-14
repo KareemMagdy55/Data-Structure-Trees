@@ -1,8 +1,9 @@
 #pragma once
+
 #include "student.h"
 
 
-ostream &operator<<(ostream &out, student &stud){
+ostream &operator<<(ostream &out, student &stud) {
     out << stud.id << endl;
     out << stud.name << endl;
     out << stud.gpa << endl;
@@ -10,10 +11,11 @@ ostream &operator<<(ostream &out, student &stud){
     out << "============================\n";
     return out;
 }
-istream & operator>>(istream& in, student& stud){
+
+istream &operator>>(istream &in, student &stud) {
 
     cout << "id: ";
-    in >> stud.id ;
+    in >> stud.id;
     in.ignore();
 
     cout << "Name: ";

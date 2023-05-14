@@ -3,10 +3,8 @@
 #define align cout << "\n===================================================\n";
 
 void mainApp::start() {
-//    system("CLS");
     userChoice = -1;
     while (userChoice > 5 or userChoice < 1) {
-//        system("CLS");
         align
         cout << "1. BST\n"
              << "2. AVL\n"
@@ -16,7 +14,6 @@ void mainApp::start() {
              << "\nEnter your choice : ";
         cin >> userChoice;
     }
-//    cout << "user choice = " << userChoice << endl;
     switch (userChoice) {
         case 1 : {
             bstChoice();
@@ -44,7 +41,6 @@ void mainApp::start() {
 
 void mainApp::bstChoice() {
     while (true) {
-//        align
         userChoice = -1;
         while (userChoice > 5 or userChoice < 1) {
             align
@@ -62,26 +58,28 @@ void mainApp::bstChoice() {
                 cin >> stud;
                 bst.insert(stud);
                 cout << "The student is added\n";
-//            bstChoice();
                 break;
             }
             case 2 : {
-                // student is removed //
                 int id;
                 cout << "id : ";
                 cin >> id;
-                bool found = bst.search(id);
+                BstNode *tempNode = new BstNode();
+                tempNode = bst.Search(bst.getRoot(), id);
                 bst.remove(bst.getRoot(), id);
-                if (found)
+                if (tempNode)
                     cout << "Student is deleted\n";
                 break;
             }
             case 3 : {
-                // chk NULL condition is better solution Search()
                 int id;
                 cout << "id : ";
                 cin >> id;
-                bst.search(id);
+                if (bst.Search(bst.getRoot(), id) != nullptr) {
+                    cout << "Student is found\n";
+                    cout << bst.Search(bst.getRoot(), id)->data;
+                } else
+                    cout << "Student is not found\n";
                 break;
             }
             case 4 : {
@@ -95,18 +93,14 @@ void mainApp::bstChoice() {
 
         }
     }
-//    bstChoice();
 
 }
 
 void mainApp::avlChoice() {
     while (true) {
         userChoice = -1;
-//        align
-//        system("CLS");
         while (userChoice > 5 or userChoice < 1) {
             align
-//            system("CLS");
             cout << "1. Add student\n"
                  << "2. Remove student\n"
                  << "3. Search student\n"
@@ -143,12 +137,10 @@ void mainApp::avlChoice() {
                 cout << "id : ";
                 cin >> id;
                 avlTree.searchStudent(id);
-//                cout << "============================\n";
                 break;
             }
             case 4 : {
                 avlTree.printAll();
-//                cout << "============================\n";
                 break;
             }
             case 5 : {
