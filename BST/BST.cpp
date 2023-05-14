@@ -99,14 +99,6 @@ BstNode *BST::Remove(BstNode *r, int key) {
 // setting the root to the new root after removing the node
 void BST::remove(BstNode *r, int key) {
     root = Remove(r, key);
-    if (root != nullptr) {
-        for (int i = 0; i < nStudents; ++i) {
-            if (students[i].id == key) {
-                decreaseDep(students[i].dep);
-                break;
-            }
-        }
-    }
 }
 
 // Print all students data in the tree sorted by ID, inorder traversal
