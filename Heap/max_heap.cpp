@@ -2,17 +2,6 @@
 
 #include "max_heap.h"
 
-MaxHeap::MaxHeap() {
-    // call loadTxtFile() to load all students in DB txt file to the heap
-    loadTxtFile();
-    size = nStudents;
-
-    for (int i = 0; i < size; ++i) {
-        heap.push_back(students[i]);
-    }
-    constructHeap();
-}
-
 void MaxHeap::insert(student stud) {
     // insert new student at last node (index)
     heap.push_back(stud);
@@ -40,33 +29,24 @@ void MaxHeap::heapify(int index) {
     int left = 2 * index + 1;
     int right = left + 1;
 
+    // check if left node > current index node
     if (heap[left].gpa > heap[max].gpa and left < size)
         max = left;
 
+    // check if right node > current index node
     if (heap[right].gpa > heap[max].gpa and right < size)
         max = right;
 
+    // if current node index changed by the two if statements above then swap nodes
+    // then heapify the max index obtained by two if statements, because the node's left or right children may be smaller than it.
     if (max != index) {
         swap(heap[max], heap[index]);
         heapify(max);
     }
 }
 
-void MaxHeap::eraseRoot() {
-    swap(heap[0], heap[size - 1]);
-    size--;
-    heapify(0);
-}
+MaxHeap::MaxHeap() {
+    this->getTxtFile();
 
-void MaxHeap::heapSort() {
-    // Initialize a temp variable to save size
-    int sz = size;
-    constructHeap();
-
-    while (size > 0) {
-        eraseRoot();
-    }
-    // Revert to the previous size to access all sorted elements
-    size = sz;
 }
 

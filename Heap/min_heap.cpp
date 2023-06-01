@@ -2,21 +2,11 @@
 
 #include "min_heap.h"
 
-MinHeap::MinHeap() {
-    // call loadTxtFile() to load all students in DB txt file to the heap
-    loadTxtFile();
-    size = nStudents;
-
-    for (int i = 0; i < size; ++i) {
-        heap.push_back(students[i]);
-    }
-    constructHeap();
-}
-
 void MinHeap::insert(student stud) {
-    // insert new student at last node (index)
+    // Insert new student at last node (index), then increase the size of heap.
     heap.push_back(stud);
     size++;
+
     int idx = size - 1;
     int studIdx = idx;
 
@@ -24,10 +14,13 @@ void MinHeap::insert(student stud) {
     while (idx > 0) {
         if (heap[studIdx].gpa < heap[idx].gpa) {// if child > parent , then swap them.
             swap(heap[studIdx], heap[idx]);
+            // New student index = current parent index cause parent.gpa < student.gpa
             studIdx = idx;
         }
+        // Go to the next parent by divide current index by 2 .
         idx /= 2;
     }
+    // Last compare to the root , it cannot be handled by while loop above
     if (heap[studIdx].gpa < heap[0].gpa) {
         swap(heap[studIdx], heap[0]);
     }
@@ -40,11 +33,17 @@ void MinHeap::heapify(int index) {
     int left = 2 * index + 1;
     int right = left + 1;
 
-    if (left < size && heap[left].gpa < heap[minIdx].gpa)
+    // check if left node < current index node
+    if (left < size && heap[left].gpa < heap[minIdx].gpa) {
         minIdx = left;
+    }
 
+    // check if right node < current index node
     if (right < size && heap[right].gpa < heap[minIdx].gpa)
         minIdx = right;
+
+    // if current node index changed by the two if statements above then swap nodes
+    // then heapify the min index obtained by two if statements, because the node's left or right children may be larger than it.
 
     if (minIdx != index) {
         swap(heap[minIdx], heap[index]);
@@ -52,21 +51,8 @@ void MinHeap::heapify(int index) {
     }
 }
 
-void MinHeap::eraseRoot() {
-    swap(heap[0], heap[size - 1]);
-    size--;
-    heapify(0);
-}
+MinHeap::MinHeap() {
+    this->getTxtFile();
 
-void MinHeap::heapSort() {
-    // Initialize a temp variable to save size
-    int sz = size;
-    constructHeap();
-
-    while (size > 0) {
-        eraseRoot();
-    }
-    // Revert to the previous size to access all sorted elements
-    size = sz;
 }
 
